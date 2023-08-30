@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form {
+        width: 500px;
+        height: 320px;
+        background: linear-gradient(rgb(118, 169, 236), white);
+        /* background-color: whitesmoke; */
+        border: none;
+        margin: auto;
+        justify-items: center;
+        border-radius: 10px;
+        padding-top: 30px;
+    }
+</style>
+<body>
+    <form action="">
+        <div style="text-align: center;">
+            <h1 style="color: blue; font-family: Arial, Helvetica, sans-serif;">CREATE ACCOUNT</h1>
+            <input type="text" placeholder="Enter Name" style="width: 300px; height: 40px; margin-bottom: 30px; border-radius: 10px; " required><br>
+            <input type="password" placeholder="Enter Password" style="width: 300px; height: 40px; border-radius: 10px; margin-bottom: 10px; " required><br>
+            <input onclick="createAccount()" type="button" value="create account" style="background: blue; width: 180px; height: 40px; border-radius: 10px; border: none; color: white;" required>
+            <script>
+                function createAccount(){
+                    alert ("acount created successfully")
+                }
+            </script>
+            
+        </div>
+       
+    </form>
+   
+</body>
+</html>
